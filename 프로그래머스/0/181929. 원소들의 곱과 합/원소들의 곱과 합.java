@@ -10,8 +10,6 @@ class Solution {
             multiple *= num_list[i];
         }
 
-        if (multiple < pow) answer++;
-
-        return answer;
+        return multiple < pow ? 1 : 0;
     }
 }
